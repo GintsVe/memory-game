@@ -1,0 +1,22 @@
+.cell {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: #5b5be3;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #3535c9;
+  }
+
+  &:disabled {
+    background-color: #6262bd;
+    cursor: not-allowed;
+  }
+}
